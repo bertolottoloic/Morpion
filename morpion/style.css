@@ -1,0 +1,65 @@
+
+body{
+      background-color:  #abebc6 ;
+}
+h2,p,div,form{
+	text-align:center;
+}
+
+footer{
+  position: absolute; bottom: 0;
+}
+
+#accueil-title {
+  text-align:center;
+}
+
+#morpion-title {
+  margin-left:45%;
+}
+
+table.tableau {
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+table.tableau td {
+    height: 20px;
+	  width: 20px;
+    vertical-align: center;
+    padding: 3px;
+}
+
+
+table.tableau th, td {
+    border-bottom: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    border: 3px solid black;
+}
+
+table.tableau tr {
+    background-color: #ffffff;
+}
+
+#replay,#replay:hover{
+  visibility:hidden;
+  position:absolute;
+  bottom:10%;
+  padding:20px;
+  border:2px solid black ;
+	margin-left:47%;
+  margin-right:50%;
+	border-radius:20px;
+	background-color:Lightgrey;
+
+}
+
+#accueil{
+  float:left;
+  border:2px solid blue;
+  padding:4px;
+  background-color: white;
+  text-align:left;
+	border-radius:10px;
+}
